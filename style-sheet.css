@@ -1,0 +1,80 @@
+h1{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font: grey;
+}
+
+p{
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-color: white;
+	display: table-cell; 
+	top: 25px;
+	vertical-align: middle;
+}
+
+.container-fluid{
+	font-family: 'Quattrocento Sans', sans-serif;
+	overflow:scroll;
+}
+
+#isa{
+	background: url(img/selfieportraitwroses.png) no-repeat center center scroll;
+	height:100vh;
+}
+
+#dalawa{
+	 height:100vh;
+}
+
+/*@media only screen and (max-width: 1026px) {
+
+     .row{
+     	width: auto;
+     	overflow-x: scroll;
+        overflow-y: hidden;
+    	white-space:nowrap
+    }
+}*/
+
+@media only screen and (max-width: 1026px) {
+	#dalawa {
+        display: none;
+    }
+
+    #tatlo {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-height: 100vh) {
+	
+	/*
+	.container-fluid{
+		width: auto;
+     	overflow-x: scroll;
+        overflow-y: hidden;
+    	white-space:nowrap;
+    	height: 100vh;
+	}
+
+    .row{
+    	white-space:nowrap;
+        display: inline-table;
+    }
+    */
+
+    #tatlo{
+    	display: none;
+    }
+}
+
+#tatlo{
+	background: url(img/selfieportraitwroses.png) no-repeat center center scroll;
+	height:100vh;
+}
+
+#main-photo{
+	left: -1000px;
+	height:100vh;
+}
