@@ -17,13 +17,26 @@ p{
 	overflow:scroll;
 }
 
-#isa{
+/*Section Floats*/
+.section-left{
+    float:left; width:50%; clear:left;
+} 
+
+.section-right {
+    float:right; width:50%; clear:right;
+}
+
+#about-img{
 	background: url(img/selfieportraitwroses.png) no-repeat center center scroll;
 	height:100vh;
 }
 
-#dalawa{
+#about{
 	 height:100vh;
+}
+
+#activities{
+	height:100vh;
 }
 
 /*@media only screen and (max-width: 1026px) {
@@ -37,12 +50,11 @@ p{
 }*/
 
 @media only screen and (max-width: 1026px) {
-	#dalawa {
-        display: none;
+	#about {
     }
 
-    #tatlo {
-        display: none;
+    #skills {
+       
     }
 }
 
@@ -63,15 +75,6 @@ p{
         display: inline-table;
     }
     */
-
-    #tatlo{
-    	display: none;
-    }
-}
-
-#tatlo{
-	background: url(img/selfieportraitwroses.png) no-repeat center center scroll;
-	height:100vh;
 }
 
 #main-photo{
