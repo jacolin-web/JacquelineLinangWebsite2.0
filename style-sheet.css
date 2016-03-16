@@ -5,6 +5,7 @@ h1{
 }
 
 h4{
+	font-family: 'Quattrocento Sans', sans-serif;
 	margin-bottom: -5px;
 }
 
@@ -27,6 +28,7 @@ a:hover{
 	}
 
 b{
+	font-family: 'Quattrocento Sans', sans-serif;
 	color:#CC33FF;
 	font-size: 16px;
 }
@@ -37,6 +39,11 @@ i{
 
 .container-fluid{
 	font-family: 'Quattrocento Sans', sans-serif;
+	height:100vh;
+}
+
+.row{
+	height:100vh;
 }
 
 /*Section Floats*/
@@ -128,15 +135,6 @@ i{
     margin-right: auto;
 	
 }
-/*@media only screen and (max-width: 1026px) {
-
-     .row{
-     	width: auto;
-     	overflow-x: scroll;
-        overflow-y: hidden;
-    	white-space:nowrap
-    }
-}*/
 
 @media only screen and (max-width: 1026px) {
 	#about {
@@ -145,25 +143,6 @@ i{
     #skills {
        
     }
-}
-
-
-@media only screen and (max-height: 100vh) {
-	
-	/*
-	.container-fluid{
-		width: auto;
-     	overflow-x: scroll;
-        overflow-y: hidden;
-    	white-space:nowrap;
-    	height: 100vh;
-	}
-
-    .row{
-    	white-space:nowrap;
-        display: inline-table;
-    }
-    */
 }
 
 #main-photo{

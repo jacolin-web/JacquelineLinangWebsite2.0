@@ -4,6 +4,7 @@ var w = window.innerWidth;
 	if(w < 500)
 	{
 		$('.row').slick({
+		  arrows: true,
 		  infinite: true,
 		  dragability: true,
 		  swipe: true,
@@ -15,6 +16,8 @@ var w = window.innerWidth;
 
 	else
 	$('.row').slick({
+		dots: false,
+		arrows: true,
 	  infinite: true,
 	  dragability: true,
 	  swipe: true,
