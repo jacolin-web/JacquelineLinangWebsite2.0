@@ -115,6 +115,14 @@ i{
 	
 }
 
+#contact #stamp-logo{
+	display: block;
+	float:right; 
+	width:25%; 
+	clear:right;
+
+}
+
 /*
 @media only screen and (max-width: 1026px) {
 	#contact img{
