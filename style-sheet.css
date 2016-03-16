@@ -4,6 +4,10 @@ h1{
 	font: white;
 }
 
+h4{
+	margin-bottom: -5px;
+}
+
 p{
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 15px;
@@ -11,6 +15,16 @@ p{
 	top: 25px;
 	vertical-align: middle;
 }
+
+a{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color:#CC33FF;
+}
+
+a:hover{
+	color:#FF0099;
+	}
 
 b{
 	color:#CC33FF;
@@ -70,6 +84,7 @@ i{
 .portfolio{
 	text-align: center;
 }
+
 #portfolio img{
 	display: block;
 	margin-left: auto;
@@ -77,6 +92,22 @@ i{
     width:100%;
 }
 
+#contact{
+	height:100vh;
+	background: url(img/notebook_paper.png) repeat center scroll;
+}
+
+#contact h4{
+	text-align: center;
+}
+
+#contact img{
+	width:50px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
 /*@media only screen and (max-width: 1026px) {
 
      .row{
