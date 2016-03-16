@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.portfolio').slick({
+	  dots: true,
 	  infinite: true,
-	  dragability: true,
 	  rows: 1,
 	  slidesToShow: 1,
 	});

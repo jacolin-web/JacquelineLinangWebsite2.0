@@ -6,6 +6,7 @@ var w = window.innerWidth;
 		$('.row').slick({
 		  infinite: true,
 		  dragability: true,
+		  swipe: true,
 		  rows: 1,
 		  slidesToShow: 1,
 		});
@@ -16,6 +17,7 @@ var w = window.innerWidth;
 	$('.row').slick({
 	  infinite: true,
 	  dragability: true,
+	  swipe: true,
 	  rows: 1,
 	  slidesToShow: 2,
 	});

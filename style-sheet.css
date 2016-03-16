@@ -59,7 +59,12 @@ i{
 }
 
 #skills{
+	 background: url(img/basebackground.png) no-repeat center center scroll;
 	 height:100vh;
+}
+
+#skills h1{
+	color:white;
 }
 
 #coursework{
@@ -73,7 +78,13 @@ i{
 }
 
 #activities{
-	height:100vh;
+	 background: url(img/basebackground.png) no-repeat center center scroll;
+	 height:100vh;
+
+}
+
+#activities h1{
+	color:white;
 }
 
 #activities-continued{
@@ -83,6 +94,15 @@ i{
 
 .portfolio{
 	text-align: center;
+}
+
+#portfolio{
+	 background: url(img/basebackground.png) no-repeat center center scroll;
+	 height:100vh;
+}
+
+#portfolio h1{
+	color:white;
 }
 
 #portfolio img{
