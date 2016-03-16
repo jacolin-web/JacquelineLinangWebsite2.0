@@ -1,7 +1,7 @@
 $(document).ready(function(){
 var w = window.innerWidth;
 
-	if(w < 500)
+	if(w < 775)
 	{
 		$('.row').slick({
 		  arrows: true,

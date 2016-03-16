@@ -55,19 +55,9 @@ i{
     float:right; width:50%; clear:right;
 }
 
-#about-img{
-	background: url(img/selfieportraitwroses.png) no-repeat center center scroll;
-	height:100vh;
-}
-
 #about{
 	 height:100vh;
 	 background: url(img/notebook_paper.png) repeat center scroll;
-}
-
-#skills{
-	 background: url(img/basebackground.png) no-repeat center center scroll;
-	 height:100vh;
 }
 
 #skills h1{
@@ -84,12 +74,6 @@ i{
 	color:#CC33FF;
 }
 
-#activities{
-	 background: url(img/basebackground.png) no-repeat center center scroll;
-	 height:100vh;
-
-}
-
 #activities h1{
 	color:white;
 }
@@ -101,11 +85,6 @@ i{
 
 .portfolio{
 	text-align: center;
-}
-
-#portfolio{
-	 background: url(img/basebackground.png) no-repeat center center scroll;
-	 height:100vh;
 }
 
 #portfolio h1{
@@ -136,13 +115,93 @@ i{
 	
 }
 
+/*
 @media only screen and (max-width: 1026px) {
-	#about {
-    }
+	#contact img{
+		width:85px;
+		display: block;
+		margin-left: auto;
+	    margin-right: auto;
+	}
 
-    #skills {
-       
-    }
+	#activities h4{
+		font-size: 15px;
+	}
+
+	#activities p{
+		font-size: 12px;
+	}
+
+}
+*/
+
+@media only screen and (max-width: 500px) {
+	#contact img{
+		width:70px;
+		display: block;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	#activities h4{
+		font-size: 13px;
+	}
+
+	#activities p{
+		font-size: 10px;
+	}
+
+	#activities-continued h4{
+		font-size: 13px;
+	}
+
+	#activities-continued p{
+		font-size: 10px;
+	}
+
+}
+
+@media (min-height: 750px) {
+	#about-img{
+		background: url(img/selfieportraitwroses-bg.png) no-repeat center center scroll;
+		height:100vh;
+	}
+
+	#skills{
+		 background: url(img/background-set-big.png) no-repeat center center scroll;
+		 height:100vh;
+	}
+	#activities{
+		 background: url(img/background-set-big.png) no-repeat center center scroll;
+		 height:100vh;
+
+	}
+	#portfolio{
+		 background: url(img/background-set-big.png) no-repeat center center scroll;
+		 height:100vh;
+	}
+
+}
+
+@media (max-height: 750px) {
+	#about-img{
+		background: url(img/selfieportraitwroses.png) no-repeat center center scroll;
+		height:100vh;
+	}
+	#skills{
+		 background: url(img/basebackground.png) no-repeat center center scroll;
+		 height:100vh;
+	}
+	#activities{
+		 background: url(img/basebackground.png) no-repeat center center scroll;
+		 height:100vh;
+
+	}
+	#portfolio{
+		 background: url(img/basebackground.png) no-repeat center center scroll;
+		 height:100vh;
+	}
+
 }
 
 #main-photo{
